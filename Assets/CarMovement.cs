@@ -18,7 +18,7 @@ public class CarMovement : MonoBehaviour {
 	void Update () {
 		car.transform.Translate(CarDir * Vector3.down * Time.deltaTime * speed);
 
-		if (car.transform.position.x > 17 || car.transform.position.x < -17) {
+		if (car.transform.position.x > leftBound || car.transform.position.x < rightBound) {
 			CarDir *= -1;
 		}
 	}
