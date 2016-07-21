@@ -18,7 +18,6 @@ public class ChangingSounds : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		Debug.Log (other + "!!!");
 		source.clip = clip1;
 		source.loop = false;
 		source.Play ();
