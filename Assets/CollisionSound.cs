@@ -17,9 +17,9 @@ public class CollisionSound : MonoBehaviour {
 
 	void OnCollisionEnter (Collision col)
 	{
-		Debug.Log ("Collided " + col.gameObject.tag);
+		
 		if (col.gameObject.tag != "Ground") {
-			
+			Debug.Log ("Collided " + col.gameObject.tag);
 			source.Play ();
 
 		}
