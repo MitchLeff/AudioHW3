@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7E177389-D773-C034-4EFF-538912F7E756}") = "AudioHW3", "Assembly-CSharp-firstpass.csproj", "{A1F0D20C-2FEB-0C65-8A89-75E6EE042C81}"
+EndProject
+Project("{7E177389-D773-C034-4EFF-538912F7E756}") = "AudioHW3", "Assembly-CSharp.csproj", "{F62FC48B-0097-1ECE-3382-3625AE20816E}"
+EndProject
+Project("{7E177389-D773-C034-4EFF-538912F7E756}") = "AudioHW3", "Assembly-CSharp-Editor.csproj", "{086C98D3-D3BC-CF3A-ECA8-0F8621CD1090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F0D20C-2FEB-0C65-8A89-75E6EE042C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F0D20C-2FEB-0C65-8A89-75E6EE042C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F0D20C-2FEB-0C65-8A89-75E6EE042C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F0D20C-2FEB-0C65-8A89-75E6EE042C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62FC48B-0097-1ECE-3382-3625AE20816E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62FC48B-0097-1ECE-3382-3625AE20816E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62FC48B-0097-1ECE-3382-3625AE20816E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62FC48B-0097-1ECE-3382-3625AE20816E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086C98D3-D3BC-CF3A-ECA8-0F8621CD1090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086C98D3-D3BC-CF3A-ECA8-0F8621CD1090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086C98D3-D3BC-CF3A-ECA8-0F8621CD1090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086C98D3-D3BC-CF3A-ECA8-0F8621CD1090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
